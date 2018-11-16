@@ -3385,6 +3385,7 @@
 			
 			#banner{
 				height: 100vh;
+				background-position: left;
 			}
 
 			#display_on_small_screen{
