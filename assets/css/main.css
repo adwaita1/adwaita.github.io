@@ -3373,6 +3373,25 @@
 		position: relative;
 		z-index: 9999;
 	}
+	
+	#display_on_small_screen{
+		display: none;
+	}
+	
+		@media screen and (max-width: 756px) {
+			#banner .inner{
+				display: none;
+			}
+			
+			#banner{
+				height: 100vh;
+			}
+
+			#display_on_small_screen{
+				display: block;
+				margin: 20px;
+			}
+		}
 
 		#banner input, #banner select, #banner textarea {
 			color: #ffffff;
