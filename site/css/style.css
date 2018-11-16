@@ -219,7 +219,7 @@ h6 {
 h2 {
   font-size: 48px;
   line-height: 48px;
-  letter-spacing: -3px;
+/*   letter-spacing: -3px; */
   word-spacing: 7px;
   padding-top: 92px;
   word-spacing: 1px;
@@ -228,7 +228,7 @@ h2 {
 h3 {
   font-size: 36px;
   line-height: 48px;
-  letter-spacing: -2px;
+/*   letter-spacing: -2px; */
   margin-bottom: 22px;
   padding-top: 80px;
 }
