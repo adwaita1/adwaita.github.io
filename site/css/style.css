@@ -614,6 +614,25 @@ header .header_top {
   color: #e8e6b9;
 }
 
+.title_box{
+	display: none;
+}
+
+@media screen and (max-width: 736px) {
+	.box .btn{
+		display: none;
+	}
+	
+	.title_box{
+		display: block;
+	}
+	
+	.box{
+		margin: 10px;
+		padding: 0;
+	}
+}
+
 /*aranya*/
 .box .box_bot1 {
   background-color: #323045;
